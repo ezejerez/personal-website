@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #262c35;
+  color: #d4cec2;
+}
+
+.title {
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+}

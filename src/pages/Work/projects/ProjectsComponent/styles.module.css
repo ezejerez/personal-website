@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2em;
+  background-color: #ffffff0d;
+  padding: 1em;
+}
+
+.image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2em;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 1em;
+}
+
+.technologies {
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 0;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.button {
+  padding: 0.5em 1em;
+  border: 1px solid #d4cec2;
+  border-radius: 0.5em;
+  color: #d4cec2;
+  background: transparent;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.button:hover {
+  color: #f06457;
+  border-color: #f06457;
+}

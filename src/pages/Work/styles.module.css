@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #262c35;
+  color: #d4cec2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: clamp(200px, 100%, 400px);
+  justify-content: center;
+  align-items: center;
+}
+
+.work-container {
+  width: clamp(100px, 80%, 400px);
+}
+
+.title {
+  font-family: "Noto Sans JP", sans-serif;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 1.2em;
+  text-align: center;
+  color: #f06661;
+}
+
+@media (max-width: 1070px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
