@@ -53,14 +53,14 @@ const ContactForm = () => {
         <input id="name" name="name" placeholder="What's your name?" value={formValue.name} onChange={handleChangeField} disabled={loading} minLength={3} />
 
         <input
-          type="email"
           id="email"
           name="email"
           placeholder="Your email address"
           value={formValue.email}
           onChange={handleChangeField}
           disabled={loading}
-          minLength={10}
+          pattern=".+@.+\..+"
+          minLength={5}
         />
 
         <input
@@ -70,7 +70,7 @@ const ContactForm = () => {
           value={formValue.subject}
           onChange={handleChangeField}
           disabled={loading}
-          minLength={10}
+          minLength={5}
         />
 
         <textarea
@@ -86,9 +86,9 @@ const ContactForm = () => {
         <button className={styles["send-button"]} type="submit" disabled={disabledSend()}>
           {loading ? <Spinner /> : "Send"}
         </button>
-      </form>
 
-      {error && <p className={styles.error}>{error}</p>}
+        {error && <p className={styles.error}>{error}</p>}
+      </form>
     </div>
   );
 };
