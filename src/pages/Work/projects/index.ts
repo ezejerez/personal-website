@@ -11,6 +11,7 @@ export const PROJECTS: Project[] = [
     img: "/killer-hotdogs.png",
     name: "Killer hotdogs",
     technologies: "React Native - Typescript - Expo",
+    projectUrl: "https://play.google.com/store/apps/details?id=com.ezejerez.killerpanchos",
     projectCode: "https://github.com/ezejerez/killer-hotdogs",
   },
 

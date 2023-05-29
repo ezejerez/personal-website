@@ -23,7 +23,7 @@ export default function Work() {
         </div>
 
         <div className={styles["work-container"]}>
-          <h3 className={styles.title}>Projects</h3>
+          <h3 className={styles.title}>Featured projects</h3>
           <Carousel>
             {React.Children.toArray(
               PROJECTS.map((project) => {
