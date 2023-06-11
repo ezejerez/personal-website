@@ -8,6 +8,13 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    img: "/clothing-customization-app.png",
+    name: "Clothing Customization App",
+    technologies: "React - ThreeJS - Typescript - NodeJS - OpenAI",
+    projectUrl: "https://clothing-customization-app.netlify.app/",
+    projectCode: "https://github.com/ezejerez/clothing-customization-app",
+  },
+  {
     img: "/killer-hotdogs.png",
     name: "Killer hotdogs",
     technologies: "React Native - Typescript - Expo",
