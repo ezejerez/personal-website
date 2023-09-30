@@ -26,7 +26,7 @@ export const PROJECTS: Project[] = [
     img: "/ezejedrez.png",
     name: "Ezejedrez",
     technologies: "React Native - Typescript - Expo",
-    projectUrl: "https://play.google.com/store/apps/details?id=com.gamesflood.ezejedrez",
+    // projectUrl: "https://play.google.com/store/apps/details?id=com.gamesflood.ezejedrez",
     projectCode: "https://github.com/leoflood/ezejedrez",
   },
 
