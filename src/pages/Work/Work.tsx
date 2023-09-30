@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "../../components/Carousel";
-import { ClicOhLogo, KnownOnlineLogo } from "./companies";
+import { ClicOhLogo, KnownOnlineLogo, ShiftaLogo } from "./companies";
 import { PROJECTS } from "./projects";
 import ProjectComponent from "./projects/ProjectsComponent/ProjectComponent";
 import styles from "./styles.module.css";
@@ -17,6 +17,7 @@ export default function Work() {
           <h3 className={styles.title}>Companies worked for</h3>
 
           <Carousel>
+            <ShiftaLogo {...itemProps} />
             <ClicOhLogo {...itemProps} />
             <KnownOnlineLogo {...itemProps} />
           </Carousel>
