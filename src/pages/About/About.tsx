@@ -6,15 +6,16 @@ export default function About() {
       <h2 className={styles.title}>ABOUT</h2>
 
       <p className={styles.text}>
-        <strong>Software Engineer & Full Stack Developer</strong> with extensive experience in designing <strong>web/mobile applications</strong>, both for
-        clients and for my own projects.
+        As an <strong>IT professional</strong> with 3+ years of experience, I have had the opportunity to work with multiple companies,
+        ranging from established enterprises to innovative start-ups, where I have played a significant role in{" "}
+        <strong>designing web applications</strong>.
         <br />
-        Specialized in <strong>React/React Native</strong>, <strong>Typescript</strong> and <strong>NodeJS</strong>.
         <br />
+        My expertise lies in <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Node.js</strong>/<strong>NestJS</strong>,
+        enabling me to create robust and efficient solutions.
         <br />
-        I am passionate about my profession, continuously learning new things and applying the knowledge acquired to help others.
-        <br />I am highly motivated to contribute with my capabilities to design solutions for challenging projects that allow me to broaden my views and
-        enhance my skills.
+        <br />I am passionate about using my knowledge to make a positive impact and contribute to projects that have a meaningful influence
+        on the world.
       </p>
 
       <a href="/resume.pdf" download="Ezequiel Jerez - Software Engineer & Full Stack Developer">

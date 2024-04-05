@@ -30,10 +30,10 @@ export const PROJECTS: Project[] = [
     projectCode: "https://github.com/leoflood/ezejedrez",
   },
 
-  {
-    img: "/personal-website.png",
-    name: "Personal website",
-    technologies: "React - Typescript - EmailJS",
-    projectCode: "https://github.com/ezejerez/personal-website",
-  },
+  // {
+  //   img: "/personal-website.png",
+  //   name: "Personal website",
+  //   technologies: "React - Typescript - EmailJS",
+  //   projectCode: "https://github.com/ezejerez/personal-website",
+  // },
 ];
