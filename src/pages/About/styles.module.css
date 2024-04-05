@@ -26,6 +26,7 @@
   border-radius: 1em;
   font-family: "Noto Sans JP", sans-serif;
   font-size: clamp(5px, 1em, 50px);
+  font-weight: 600;
 }
 
 .button:hover {
